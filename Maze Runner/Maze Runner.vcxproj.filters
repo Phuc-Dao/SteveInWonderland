@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="armback.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="armbottom.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="armfront.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="armleft.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="armright.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="armtop.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="blueprints.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bodyback.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bodybottom.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bodyfront.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bodyleft.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bodyright.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bodytop.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="clouds_back.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="clouds_front.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="clouds_left.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="clouds_right.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="clouds_top.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="headback.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="headbottom.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="headfront.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="headleft.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="headright.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="headtop.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="legback.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="legbottom.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="legfront.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="legleft.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="legright.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="legtop.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pave.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="plainskyback.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="plainskyfront.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="plainskyleft.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="plainskyright.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="plainskytop.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="road_01.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="road_02.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="road_03.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skyback.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skyfront.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skyleft.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skyright.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skytop.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="street.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="top01.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="top02.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="wall01.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="wall02.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="wall03.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="wall04.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BezierCurve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bigPatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bpatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Building.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="City.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Geode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLee.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Group.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixTransform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Projection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spotlight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BezierCurve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bigPatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bpatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Building.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="City.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Geode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Group.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Projection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spotlight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="perPixelShade.frag" />
+    <None Include="perPixelShade.vert" />
+    <None Include="perPixelTexShader.frag" />
+    <None Include="perPixelTexShader.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="SOIL.lib" />
+  </ItemGroup>
+</Project>

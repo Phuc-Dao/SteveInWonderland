@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{68DA8515-52BB-4C64-8B05-A244A7528206}</ProjectGuid>
+    <RootNamespace>MazeRunner</RootNamespace>
+    <ProjectName>Steve In Wonderland</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Image Include="armback.jpg" />
+    <Image Include="armbottom.jpg" />
+    <Image Include="armfront.jpg" />
+    <Image Include="armleft.jpg" />
+    <Image Include="armright.jpg" />
+    <Image Include="armtop.jpg" />
+    <Image Include="blueprints.jpg" />
+    <Image Include="bodyback.jpg" />
+    <Image Include="bodybottom.jpg" />
+    <Image Include="bodyfront.jpg" />
+    <Image Include="bodyleft.jpg" />
+    <Image Include="bodyright.jpg" />
+    <Image Include="bodytop.jpg" />
+    <Image Include="clouds_back.jpg" />
+    <Image Include="clouds_front.jpg" />
+    <Image Include="clouds_left.jpg" />
+    <Image Include="clouds_right.jpg" />
+    <Image Include="clouds_top.JPG" />
+    <Image Include="headback.jpg" />
+    <Image Include="headbottom.jpg" />
+    <Image Include="headfront.jpg" />
+    <Image Include="headleft.jpg" />
+    <Image Include="headright.jpg" />
+    <Image Include="headtop.jpg" />
+    <Image Include="legback.jpg" />
+    <Image Include="legbottom.jpg" />
+    <Image Include="legfront.jpg" />
+    <Image Include="legleft.jpg" />
+    <Image Include="legright.jpg" />
+    <Image Include="legtop.jpg" />
+    <Image Include="pave.jpg" />
+    <Image Include="plainskyback.jpg" />
+    <Image Include="plainskyfront.jpg" />
+    <Image Include="plainskyleft.jpg" />
+    <Image Include="plainskyright.jpg" />
+    <Image Include="plainskytop.jpg" />
+    <Image Include="road_01.jpg" />
+    <Image Include="road_02.jpg" />
+    <Image Include="road_03.jpg" />
+    <Image Include="skyback.jpg" />
+    <Image Include="skyfront.jpg" />
+    <Image Include="skyleft.jpg" />
+    <Image Include="skyright.jpg" />
+    <Image Include="skytop.jpg" />
+    <Image Include="street.jpg" />
+    <Image Include="textures.jpg" />
+    <Image Include="top01.jpg" />
+    <Image Include="top02.jpg" />
+    <Image Include="wall01.jpg" />
+    <Image Include="wall02.jpg" />
+    <Image Include="wall03.jpg" />
+    <Image Include="wall04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BezierCurve.cpp" />
+    <ClCompile Include="bigPatch.cpp" />
+    <ClCompile Include="Box.cpp" />
+    <ClCompile Include="bpatch.cpp" />
+    <ClCompile Include="Building.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="City.cpp" />
+    <ClCompile Include="Cube.cpp" />
+    <ClCompile Include="Geode.cpp" />
+    <ClCompile Include="GLee.c" />
+    <ClCompile Include="Group.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="Matrix4.cpp" />
+    <ClCompile Include="MatrixTransform.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="ParticleSys.cpp" />
+    <ClCompile Include="Projection.cpp" />
+    <ClCompile Include="shader.cpp" />
+    <ClCompile Include="SkyBox.cpp" />
+    <ClCompile Include="Spotlight.cpp" />
+    <ClCompile Include="Vector3.cpp" />
+    <ClCompile Include="Vector4.cpp" />
+    <ClCompile Include="Viewport.cpp" />
+    <ClCompile Include="window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BezierCurve.h" />
+    <ClInclude Include="bigPatch.h" />
+    <ClInclude Include="Box.h" />
+    <ClInclude Include="bpatch.h" />
+    <ClInclude Include="Building.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="City.h" />
+    <ClInclude Include="Cube.h" />
+    <ClInclude Include="Geode.h" />
+    <ClInclude Include="GLee.h" />
+    <ClInclude Include="Group.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="Matrix4.h" />
+    <ClInclude Include="MatrixTransform.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="ParticleSys.h" />
+    <ClInclude Include="Projection.h" />
+    <ClInclude Include="shader.h" />
+    <ClInclude Include="SkyBox.h" />
+    <ClInclude Include="SOIL.h" />
+    <ClInclude Include="Spotlight.h" />
+    <ClInclude Include="Vector3.h" />
+    <ClInclude Include="Vector4.h" />
+    <ClInclude Include="Viewport.h" />
+    <ClInclude Include="Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="perPixelShade.frag" />
+    <None Include="perPixelShade.vert" />
+    <None Include="perPixelTexShader.frag" />
+    <None Include="perPixelTexShader.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="SOIL.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
