@@ -12,15 +12,15 @@ what lies ahead.
 
 Control:
 --------
-*w - move forward.
-*s - move backward.
-*a - move left.
-*d - move right.
-*q - rotate camera counter clockwise.
-*e - rotate camera clockwise.
-*o - switch to over head view.
-*p - move the panoramic camera.
-*f3- toggle movement of flag.
+* w - move forward.
+* s - move backward.
+* a - move left.
+* d - move right.
+* q - rotate camera counter clockwise.
+* e - rotate camera clockwise.
+* o - switch to over head view.
+* p - move the panoramic camera.
+* f3- toggle movement of flag.
 
 TECHNICAL FEATURES:
 -------------------
