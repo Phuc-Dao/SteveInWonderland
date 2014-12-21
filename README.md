@@ -24,9 +24,9 @@ Control:
 
 TECHNICAL FEATURES:
 -------------------
-*Moving the camera or objects in the scene along a path defined as a piecewise Bezier curve
-*Procedurally modeled city buildings
-*Per-Pixel shading
-*Particle Effect
-*Animated Bezier Patches
-*Collision detection with bounding spheres or boxes
+* Moving the camera or objects in the scene along a path defined as a piecewise Bezier curve
+* Procedurally modeled city buildings
+* Per-Pixel shading
+* Particle Effect
+* Animated Bezier Patches
+* Collision detection with bounding spheres or boxes
